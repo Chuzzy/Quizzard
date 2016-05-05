@@ -16,6 +16,11 @@ namespace Quizzard
         {
             InitializeComponent();
         }
-        
+
+        private void startButton_Click(object sender, EventArgs e)
+        {
+            QuestionForm qf1 = new QuestionForm();
+            qf1.Show();
+        }
     }
 }
